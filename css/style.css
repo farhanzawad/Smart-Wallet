@@ -1,0 +1,39 @@
+h1,h2,label{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.logo h1 a{
+    font-family: 'Ruda', sans-serif;
+}
+p,a,input{
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button-animation */
+
+.slide-right-animation {
+    animation: slideRight 1s ease-in-out forwards;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(12rem); /* Adjust the distance you want to slide */
+    }
+}
+
