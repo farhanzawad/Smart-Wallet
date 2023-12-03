@@ -36,12 +36,12 @@ document.getElementById("footer").innerHTML = `<section class="flex flex-col bg-
     <div class="menu">
         <ul class="flex gap-10">
             <li class="hover:scale-110 hover:-translate-y-1 transition ease-in-out duration-300">
-                <a href="" class="font-bold hover:text-gray-600 ">
+                <a href="https://github.com/farhanzawad/" target="_blank" class="font-bold hover:text-gray-600 ">
                    About 
                 </a>
             </li>
             <li class="hover:scale-110 hover:-translate-y-1 transition ease-in-out duration-300">
-                <a href="" class="font-bold hover:text-gray-600 ">
+                <a href="https://github.com/farhanzawad/smartwallet" target="_blank" class="font-bold hover:text-gray-600 ">
                    How it Works
                 </a>
             </li>
@@ -70,7 +70,7 @@ document.getElementById("footer").innerHTML = `<section class="flex flex-col bg-
                 </a>
             </li>
             <li class="hover:scale-110 hover:-translate-y-1 transition ease-in-out duration-300">
-                <a href="" class="font-bold hover:text-gray-600 ">
+                <a href="https://www.facebook.com/ahmed.farhan.6G/" target="_blank" class="font-bold hover:text-gray-600 ">
                    Social
                 </a>
             </li>

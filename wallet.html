@@ -16,6 +16,47 @@
     <header id="headerUsr"> 
     </header>
 
+    <main class="-mx-32 bg-[url('img/pexels-pixabay-259200.jpg')] bg-cover bg-center">
+        <div class="flex flex-col justify-around w-full bg-white bg-opacity-70 p-16 gap-5">
+            <div class="one">
+                <div class="wallet flex gap-5 py-5 w-full bg-white bg-opacity-75 items-center justify-center rounded-md drop-shadow-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a2.25 2.25 0 00-2.25-2.25H15a3 3 0 11-6 0H5.25A2.25 2.25 0 003 12m18 0v6a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 18v-6m18 0V9M3 12V9m18 0a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 9m18 0V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v3" />
+                    </svg>
+                    <h1 class="font-bold">Wallet Manager</h1>
+                    
+                </div>
+            </div>
+            <div class="two flex justify-center items-center gap-32 my-10">
+                <div class="deposit bg-green-600 rounded-md w-full flex flex-col gap-5 p-7 justify-center items-center">
+                    <h1 class="text-white font-semibold text-3xl text-center">Deposit</h1>
+                    <p class="text-xl text-white text-center"><span id="depoAmount">00</span> BDT</p>
+                </div>
+                <div class="withdraw bg-red-600 rounded-md w-full flex flex-col gap-5 p-7 justify-center items-center">
+                    <h1 class="text-white font-semibold text-3xl text-center">Withdraw</h1>
+                    <p class="text-xl text-white text-center"><span id="withAmount">00</span> BDT</p>
+                </div>
+                <div class="currentBalance bg-blue-600 rounded-md w-full flex flex-col gap-5 p-7 justify-center items-center">
+                    <h1 class="text-white font-semibold text-3xl text-center">Current Balance</h1>
+                    <p class="text-xl text-white text-center"><span id="curAmount">00</span> BDT</p>
+                </div>
+            </div>
+            <div class="three flex justify-center items-center gap-32">
+                <div class="depoValue bg-white bg-opacity-75 p-5 rounded-md w-full space-y-5 drop-shadow-lg">
+                    <h1 class="text-2xl font-bold">Deposit Money</h1>
+                    <input type="number" name="depoValue" id="depoValue" class="w-full rounded-md p-3" placeholder="Enter amount you want to Deposit">
+                    <button id="depoBtn" class="bg-yellow-400 hover:bg-yellow-500 text-black py-3 px-5 font-semibold
+                    rounded-md">Deposit</button>
+                </div>
+                <div class="withValue bg-white bg-opacity-75 p-5 rounded-md w-full space-y-5 drop-shadow-lg">
+                    <h1 class="text-2xl font-bold">Withdraw Money</h1>
+                    <input type="number" name="withValue" id="withValue" class="w-full rounded-md p-3" placeholder="Enter amount you want to Withdraw">
+                    <button id="witBtn" class="bg-green-600 hover:bg-green-700 text-white py-3 px-5 font-semibold
+                    rounded-md">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
 
