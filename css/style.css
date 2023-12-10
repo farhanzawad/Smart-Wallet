@@ -3,6 +3,7 @@ h1,h2,label{
 }
 .logo h1 a{
     font-family: 'Ruda', sans-serif;
+    line-height: 0px;
 }
 p,a,input,button{
     font-family: 'Roboto', sans-serif;
