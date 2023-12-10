@@ -139,7 +139,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 //message
-if (window.location.href.includes('index.html')) {
+const hoMe = document.getElementById('hoMe')
+if (hoMe) {
     // Show confirmation message
-    confirm('Welcome! We are using system default Light/Dark mode appearence. \n If you want to switch between Dark/Light modes, change your system appearence.');
+    confirm('Welcome! We are using system default Light/Dark mode appearences. \n If you want to switch between Dark/Light modes, change your system mode.');
 }
