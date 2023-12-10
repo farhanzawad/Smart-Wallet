@@ -31,7 +31,7 @@ if (emailInput && passwordInput) {
 
 // try button
 // Check if the element with id 'icon' exists
-var iconElement = document.getElementById('icon');
+var iconElement = document.getElementById('btnClick');
 
 if (iconElement) {
     iconElement.addEventListener('click', function () {
@@ -41,6 +41,7 @@ if (iconElement) {
         // Add a CSS class to initiate the sliding animation
         iconElement.classList.add('slide-right-animation', 'rounded-md');
         tryText.classList.add('rounded-md');
+        window.location.href = "login.html";
 
         // Optionally, remove the class after the animation duration to allow for repeated clicks
         setTimeout(function () {
