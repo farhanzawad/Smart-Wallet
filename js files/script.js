@@ -113,3 +113,33 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log("One or more required elements not found.");
     }
 });
+
+
+//mode toggle
+document.addEventListener('DOMContentLoaded', function () {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    // Check for user preference stored in localStorage
+    if (localStorage.getItem('darkMode') === 'enabled') {
+        body.classList.add('dark');
+    }
+
+    // Toggle dark mode on button click
+    darkModeToggle.addEventListener('click', function () {
+        body.classList.toggle('dark');
+
+        // Save user preference to localStorage
+        if (body.classList.contains('dark')) {
+            localStorage.setItem('darkMode', 'enabled');
+        } else {
+            localStorage.setItem('darkMode', 'disabled');
+        }
+    });
+});
+
+//message
+if (window.location.href.includes('index.html')) {
+    // Show confirmation message
+    confirm('Welcome! We are using system default Light/Dark mode appearence. \n If you want to switch between Dark/Light modes, change your system appearence.');
+}
