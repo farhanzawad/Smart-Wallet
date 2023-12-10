@@ -1,13 +1,13 @@
 /* External CSS */
 
-h1,h2,label{
+h1,h2,label,button{
     font-family: 'Bai Jamjuree', sans-serif;
 }
 .logo h1 a{
     font-family: 'Ruda', sans-serif;
     line-height: 0px;
 }
-p,a,input,button{
+p,a,input{
     font-family: 'Roboto', sans-serif;
     line-height: 26px;
 }
